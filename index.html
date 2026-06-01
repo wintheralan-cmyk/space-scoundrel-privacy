@@ -13,11 +13,28 @@
       background: #ffffff;
       max-width: 720px;
       margin: 0 auto;
-      padding: 48px 24px 80px;
+      padding: 0 24px 80px;
     }
+    nav {
+      position: sticky;
+      top: 0;
+      background: #ffffff;
+      border-bottom: 1px solid #e0e0e0;
+      padding: 12px 0;
+      margin-bottom: 40px;
+      font-size: 14px;
+      z-index: 10;
+    }
+    nav a {
+      color: #0066cc;
+      text-decoration: none;
+      margin-right: 16px;
+    }
+    nav a:hover { text-decoration: underline; }
     h1 {
       font-size: 26px;
       font-weight: 700;
+      margin-top: 48px;
       margin-bottom: 4px;
     }
     h2 {
@@ -31,77 +48,124 @@
       font-size: 14px;
       margin-bottom: 40px;
     }
-    p {
-      margin: 0 0 16px;
-    }
+    p { margin: 0 0 16px; }
     ul {
       margin: 0 0 16px;
       padding-left: 24px;
     }
-    li {
-      margin-bottom: 10px;
-    }
+    li { margin-bottom: 10px; }
     .divider {
       border: none;
       border-top: 1px solid #e0e0e0;
-      margin: 48px 0;
+      margin: 56px 0;
     }
-    a {
-      color: #0066cc;
-    }
+    a { color: #0066cc; }
     @media (prefers-color-scheme: dark) {
       body { background: #121212; color: #e8e8e8; }
+      nav { background: #121212; border-color: #333; }
       .subtitle { color: #999; }
       .divider { border-color: #333; }
       a { color: #4da6ff; }
+      nav a { color: #4da6ff; }
     }
   </style>
 </head>
 <body>
 
-  <h1>Privacy Policy</h1>
-  <p class="subtitle">Space Scoundrel &nbsp;·&nbsp; Last updated: April 2026</p>
+  <nav>
+    <a href="#en">English Version</a> |
+    <a href="#pt" style="margin-left:16px">Versão em Português</a>
+  </nav>
 
-  <p>Space Scoundrel is a card game developed as an independent project. This policy explains how the app handles user data.</p>
+  <!-- ══════════════════════════════════════ ENGLISH -->
+  <section id="en">
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">Space Scoundrel &nbsp;·&nbsp; Last updated: June 2026</p>
 
-  <h2>Data we collect</h2>
-  <p>Space Scoundrel does not collect, store, or share any personal data directly. The app uses third-party services that may collect data automatically:</p>
-  <ul>
-    <li><strong>Google AdMob</strong> — serves advertisements and may collect device identifiers and usage data to show relevant ads. See Google's privacy policy at <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>.</li>
-    <li><strong>Google Play In-App Purchases</strong> — handles the "Remove Ads" purchase. Transaction data is processed by Google Play. We do not store payment information.</li>
-  </ul>
+    <p>Space Scoundrel is an independent mobile card game. This Privacy Policy explains how the app handles information when you play.</p>
 
-  <h2>Data stored on your device</h2>
-  <p>The app saves two preferences locally on your device only: your chosen language and whether you purchased the ad-free version. This data never leaves your device.</p>
+    <h2>1. Information We Collect</h2>
+    <p>Space Scoundrel does not directly collect, store, or share any personal information. The app uses Google AdMob to display advertisements, which may automatically collect certain device information, including:</p>
+    <ul>
+      <li>Advertising ID (Google Advertising ID / GAID)</li>
+      <li>Device manufacturer, model, and operating system version</li>
+      <li>IP address and approximate location (country/language settings)</li>
+      <li>Ad interaction events (views and clicks)</li>
+    </ul>
 
-  <h2>Children</h2>
-  <p>This app is not directed at children under 13. We do not knowingly collect data from children.</p>
+    <h2>2. How Ads Are Displayed</h2>
+    <p>The app shows a banner ad on the home screen and an interstitial ad approximately every three games. These ads are served by Google AdMob. We do not use rewarded ads or any other ad format at this time.</p>
+    <p>In the future, we may incorporate additional advertising networks through mediation. If so, this policy will be updated before any such change takes effect.</p>
 
-  <h2>Contact</h2>
-  <p>Questions? Email us at <a href="mailto:wanderlust.ai.new@gmail.com">wanderlust.ai.new@gmail.com</a></p>
+    <h2>3. Data Stored on Your Device</h2>
+    <p>The app stores the following data locally on your device only. This data never leaves your device:</p>
+    <ul>
+      <li>Your chosen language (Portuguese or English)</li>
+      <li>Whether you purchased the ad-free version</li>
+      <li>Game records and settings preferences</li>
+    </ul>
+
+    <h2>4. Ad-Free Option</h2>
+    <p>You can remove all ads through a one-time in-app purchase. The transaction is processed entirely by Google Play; we do not store any payment information.</p>
+
+    <h2>5. Your Choices</h2>
+    <p>You can opt out of personalized advertising at any time through your Android device settings: <strong>Settings &gt; Google &gt; Ads</strong> — select "Opt out of Ads Personalization" or "Reset Advertising ID." For more information on how Google uses data from its advertising services, see <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>.</p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>Space Scoundrel is not directed at children under 13. We do not knowingly collect personal data from children. Any data collected by third-party ad networks is governed by their own privacy policies and applicable regulations.</p>
+
+    <h2>7. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date. We encourage you to review this page periodically.</p>
+
+    <h2>8. Contact</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:wanderlust.ai.new@gmail.com">wanderlust.ai.new@gmail.com</a>.</p>
+  </section>
 
   <hr class="divider" />
 
-  <h1>Política de Privacidade</h1>
-  <p class="subtitle">Space Scoundrel &nbsp;·&nbsp; Última atualização: abril de 2026</p>
+  <!-- ══════════════════════════════════════ PORTUGUÊS -->
+  <section id="pt">
+    <h1>Política de Privacidade</h1>
+    <p class="subtitle">Space Scoundrel &nbsp;·&nbsp; Última atualização: junho de 2026</p>
 
-  <p>Space Scoundrel é um jogo de cartas desenvolvido de forma independente. Esta política explica como o app trata dados dos usuários.</p>
+    <p>Space Scoundrel é um jogo de cartas mobile desenvolvido de forma independente. Esta Política de Privacidade explica como o app trata informações quando você joga.</p>
 
-  <h2>Dados coletados</h2>
-  <p>Space Scoundrel não coleta, armazena ou compartilha dados pessoais diretamente. O app utiliza serviços de terceiros que podem coletar dados automaticamente:</p>
-  <ul>
-    <li><strong>Google AdMob</strong> — exibe anúncios e pode coletar identificadores do dispositivo e dados de uso para personalizar anúncios. Veja a política do Google em <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>.</li>
-    <li><strong>Google Play Compras no app</strong> — processa a compra de "Remover Interferência". Os dados da transação são processados pelo Google Play. Não armazenamos informações de pagamento.</li>
-  </ul>
+    <h2>1. Informações que Coletamos</h2>
+    <p>Space Scoundrel não coleta, armazena ou compartilha dados pessoais diretamente. O app utiliza o Google AdMob para exibir anúncios, que pode coletar automaticamente certas informações do dispositivo, incluindo:</p>
+    <ul>
+      <li>ID de publicidade (Google Advertising ID / GAID)</li>
+      <li>Fabricante, modelo e versão do sistema operacional do dispositivo</li>
+      <li>Endereço IP e localização aproximada (configurações de país/idioma)</li>
+      <li>Eventos de interação com anúncios (visualizações e cliques)</li>
+    </ul>
 
-  <h2>Dados salvos no dispositivo</h2>
-  <p>O app salva localmente apenas duas preferências: o idioma escolhido e se você adquiriu a versão sem anúncios. Esses dados nunca saem do seu dispositivo.</p>
+    <h2>2. Como os Anúncios São Exibidos</h2>
+    <p>O app exibe um banner fixo na tela inicial e um anúncio intersticial aproximadamente a cada três partidas. Esses anúncios são veiculados pelo Google AdMob. Não utilizamos anúncios premiados (rewarded) nem outros formatos no momento.</p>
+    <p>No futuro, poderemos incorporar redes de anúncios adicionais por meio de mediação. Caso isso ocorra, esta política será atualizada antes que qualquer mudança entre em vigor.</p>
 
-  <h2>Crianças</h2>
-  <p>Este app não é direcionado a crianças menores de 13 anos. Não coletamos dados de crianças intencionalmente.</p>
+    <h2>3. Dados Armazenados no seu Dispositivo</h2>
+    <p>O app armazena os seguintes dados localmente no seu dispositivo. Esses dados nunca saem do seu dispositivo:</p>
+    <ul>
+      <li>Idioma escolhido (português ou inglês)</li>
+      <li>Se você adquiriu a versão sem anúncios</li>
+      <li>Recordes de partidas e preferências de configuração</li>
+    </ul>
 
-  <h2>Contato</h2>
-  <p>Dúvidas? Entre em contato pelo e-mail <a href="mailto:wanderlust.ai.new@gmail.com">wanderlust.ai.new@gmail.com</a></p>
+    <h2>4. Opção Sem Anúncios</h2>
+    <p>Você pode remover todos os anúncios por meio de uma compra única no app. A transação é processada inteiramente pelo Google Play; não armazenamos nenhum dado de pagamento.</p>
+
+    <h2>5. Suas Escolhas</h2>
+    <p>Você pode desativar a publicidade personalizada a qualquer momento pelas configurações do seu dispositivo Android: <strong>Configurações &gt; Google &gt; Anúncios</strong> — selecione "Desativar personalização de anúncios" ou "Redefinir ID de publicidade". Para mais informações sobre como o Google usa dados dos seus serviços de publicidade, acesse <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>.</p>
+
+    <h2>6. Privacidade de Crianças</h2>
+    <p>Space Scoundrel não é direcionado a crianças menores de 13 anos. Não coletamos intencionalmente dados pessoais de crianças. Quaisquer dados coletados por redes de anúncios de terceiros são regidos pelas suas próprias políticas de privacidade e pela legislação aplicável, incluindo a LGPD.</p>
+
+    <h2>7. Alterações nesta Política</h2>
+    <p>Podemos atualizar esta Política de Privacidade periodicamente. Quaisquer alterações serão publicadas nesta página com a data de revisão atualizada. Recomendamos que você revise esta página de tempos em tempos.</p>
+
+    <h2>8. Contato</h2>
+    <p>Se você tiver alguma dúvida sobre esta Política de Privacidade, entre em contato pelo e-mail <a href="mailto:wanderlust.ai.new@gmail.com">wanderlust.ai.new@gmail.com</a>.</p>
+  </section>
 
 </body>
 </html>
